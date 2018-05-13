@@ -145,6 +145,8 @@ class FirstViewController: UIViewController, UIScrollViewDelegate, UICollectionV
             
             let imgPath = API_WEB_URL.MAIN_URL + "API/" + JSON_FIELDS.arr_slider_img[index]
             // print("IMAGE_URL : \(imgPath)")
+            
+            
             if URL(string: JSON_FIELDS.arr_slider_img[index]) != nil
             {
                 let sliderUrl = URL(string: imgPath)
