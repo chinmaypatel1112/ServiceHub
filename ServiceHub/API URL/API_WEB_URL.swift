@@ -11,6 +11,7 @@ import UIKit
 class API_WEB_URL: UIViewController {
 
    
+   //We are running on localhost only. 
     static var MAIN_URL = "http://localhost/ProjectSem6/admin/flatable.phoenixcoded.net/default/"
     
     static var SLIDER_IMAGES = MAIN_URL + "API/SliderAPI.php"
